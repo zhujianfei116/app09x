@@ -1,0 +1,13 @@
+# [("1", "休眠"), ("m", "MAC地址"), ("w", "WPS按钮")]
+
+test_search_01:
+  search: "1"
+  res: "休眠"
+
+test_search_02:
+  search: "m"
+  res: "MAC地址"
+
+test_search_03:
+  search: "w"
+  res: "WPS按钮"

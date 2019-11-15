@@ -1,0 +1,49 @@
+#name: "lili" # 每个冒号后必须跟空格
+#Name: "lili" # 大小写敏感
+
+# 对象
+#data: {"name":"lili","passwd":"123"}  # 支持python字典
+#data1: hello # 自动转换python数据类型
+#value: # 支持换行操作
+#  name: lili
+#  pwd: 123
+
+# ----------------列表----------------
+#data: # yaml
+#  - "name"
+#  - "passwd"
+
+#data: ["name","passwd"] # python
+
+# 列表套字典
+#data:
+#  - name: "lili"
+#  - passwd: "123456"
+
+# ----------------纯量----------------
+# 布尔值
+# yaml支持
+#bool1: true
+#bool2: false
+# python数据类型
+#bool3: True
+#bool4: False
+# 整数
+#inx: 123
+##浮点数
+#flox: 12.0000001
+
+# 空
+#no1: ~ # yaml数据 支持
+#no4: Null # js/java 支持
+#no5: null # js/java 支持
+#no6:    # 没有值支持
+
+#no2: None # 不支持python类型
+#no3: none # 不支持python类型
+
+# 日期
+#data1: 2019-11-11 # datetime.date
+#data2: 2019-11-11 12:12:12 # datetime.datetime
+#data3: 2019-01-01 # 所有位置只有一个数值是需要补0
+#data4: 2019-11-11 12:01:01 # 所有位置只有一个数值是需要补0
